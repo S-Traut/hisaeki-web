@@ -1,0 +1,69 @@
+<script setup lang="ts">
+import BigPicture from "../components/layout/BigPicture.vue";
+import Container from "../components/layout/Container.vue";
+import FullPicture from "../components/layout/FullPicture.vue";
+import Gallery from "../components/layout/Gallery.vue";
+import Title from "../components/layout/Title.vue";
+import TwoColumn from "../components/layout/TwoColumn.vue";
+
+const gallery = [
+  "src/assets/images/AiHoshino_end.png",
+  "src/assets/images/AobaranKeiko.png",
+  "src/assets/images/Carenend.png",
+  "src/assets/images/HokusaiKatsushika.png",
+  "src/assets/images/Kokomi.jpg",
+  "src/assets/images/Koyanmin.png",
+  "src/assets/images/MarinwallpaperShi.png",
+  "src/assets/images/MarinwallpaperSu.png",
+  "src/assets/images/Narmaya_Selfie.png",
+  "src/assets/images/OberonCrazy.png",
+  "src/assets/images/Pdp.png",
+  "src/assets/images/Remillia_Scarlet.png",
+  "src/assets/images/Scathach.jpg",
+  "src/assets/images/tlaloc.png",
+  "src/assets/images/Zagreus&Dusa2.jpg",
+];
+</script>
+
+<template>
+  <Container>
+    <BigPicture src="src/assets/images/main.png" class="mb-8" />
+    <TwoColumn>
+      <template v-slot:right-col>
+        <Title text="ABOUT ME" align="left" />
+        <p class="mb-1">
+          Based in France, I'm a character artist in constant search of
+          improvement. I like to discover new working methods and receive
+          constructive criticism to improve my final renders. Art is a field
+          that makes sense to me because mastering its essence is nothing short
+          of utopian, but that's enough to make me want to take this journey as
+          far as I can.
+        </p>
+        <p class="mb-8">
+          My greatest wish would be to be sufficiently aware of my surroundings
+          to be able to transcribe them as best I can onto a sheet of paper with
+          the sole aid of my head coupled with my hands. I hope to be able to
+          pass on as much knowledge as possible to as many people as possible,
+          and to help those who would not otherwise dare to embark on this
+          adventure to discover this incredible world of art.
+        </p>
+      </template>
+    </TwoColumn>
+    <FullPicture src="src/assets/images/full.png" class="mb-8" />
+    <Title text="THE GALLERY" align="center" />
+    <div class="centered mb-8">
+      <p class="mb-1">
+        A work of art can take from a few hours to several days to complete.
+        Although time flies when you're focused, it's always important to savor
+        that same time, which is the very essence of why I continue to hold a
+        pencil over a sheet of paper.
+      </p>
+      <p>
+        Appreciating the whole process of creation is what leads to a result
+        that sometimes delights us and reminds us why we started doodling when
+        we were young children.
+      </p>
+    </div>
+    <Gallery :images="gallery" />
+  </Container>
+</template>

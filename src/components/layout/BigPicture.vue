@@ -2,7 +2,7 @@
 import { onMounted, ref } from "vue";
 import simpleParallax from "simple-parallax-js";
 
-defineProps({
+const props = defineProps({
   src: {
     required: true,
     type: String,
@@ -14,11 +14,15 @@ onMounted(() => {
   if (image.value) {
   }
 });
+
+function getImageUrl() {
+  return new URL(`../../assets/images/${props.src}`, import.meta.url).href
+}
 </script>
 
 <template>
   <div class="bp-wrapper">
-    <img ref="image" :src="src" />
+    <img ref="image" :src="getImageUrl()" />
   </div>
 </template>
 

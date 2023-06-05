@@ -7,27 +7,27 @@ import Title from "../components/layout/Title.vue";
 import TwoColumn from "../components/layout/TwoColumn.vue";
 
 const gallery = [
-  "src/assets/images/AiHoshino_end.png",
-  "src/assets/images/AobaranKeiko.png",
-  "src/assets/images/Carenend.png",
-  "src/assets/images/HokusaiKatsushika.png",
-  "src/assets/images/Kokomi.jpg",
-  "src/assets/images/Koyanmin.png",
-  "src/assets/images/MarinwallpaperShi.png",
-  "src/assets/images/MarinwallpaperSu.png",
-  "src/assets/images/Narmaya_Selfie.png",
-  "src/assets/images/OberonCrazy.png",
-  "src/assets/images/Pdp.png",
-  "src/assets/images/Remillia_Scarlet.png",
-  "src/assets/images/Scathach.jpg",
-  "src/assets/images/tlaloc.png",
-  "src/assets/images/Zagreus&Dusa2.jpg",
+  "AiHoshino_end.png",
+  "AobaranKeiko.png",
+  "Carenend.png",
+  "HokusaiKatsushika.png",
+  "Kokomi.jpg",
+  "Koyanmin.png",
+  "MarinwallpaperShi.png",
+  "MarinwallpaperSu.png",
+  "Narmaya_Selfie.png",
+  "OberonCrazy.png",
+  "Pdp.png",
+  "Remillia_Scarlet.png",
+  "Scathach.jpg",
+  "tlaloc.png",
+  "Zagreus&Dusa2.jpg",
 ];
 </script>
 
 <template>
   <Container>
-    <BigPicture src="src/assets/images/main.png" class="mb-8" />
+    <BigPicture src="main.png" class="mb-8" />
     <TwoColumn>
       <template v-slot:right-col>
         <Title text="ABOUT ME" align="left" />
@@ -49,7 +49,7 @@ const gallery = [
         </p>
       </template>
     </TwoColumn>
-    <FullPicture src="src/assets/images/full.png" class="mb-8" />
+    <FullPicture src="full.png" class="mb-8" />
     <Title text="THE GALLERY" align="center" />
     <div class="centered mb-8">
       <p class="mb-1">

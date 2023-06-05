@@ -5,13 +5,17 @@ defineProps({
     required: true,
   },
 });
+
+function getImageUrl(image: string) {
+  return new URL(`../../assets/images/${image}`, import.meta.url).href
+}
 </script>
 
 <template>
   <masonry-wall :items="images" :ssr-columns="4" :gap="10">
     <template #default="{ item, index }">
         <div class="image-wrapper" :src="item">
-            <img :src="item" alt="">
+            <img :src="getImageUrl(item)" alt="">
         </div>
     </template>
   </masonry-wall>

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import simpleParallax from "simple-parallax-js";
 
 const props = defineProps({
   src: {
@@ -28,20 +27,26 @@ function getImageUrl() {
 
 <style scoped>
 .bp-wrapper {
+  display: none;
   height: 600px;
   overflow: hidden;
 }
 
 img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+}
+
+@media screen and (min-width: 720px) {
+  .bp-wrapper {
+    display: block;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1080px) {
   .bp-wrapper {
     height: calc(100vh - 8rem);
-    overflow: hidden;
   }
 }
 </style>

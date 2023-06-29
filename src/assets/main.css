@@ -22,6 +22,10 @@
     margin-bottom: 8rem;
 }
 
+.mb-16 {
+    margin-bottom: 16rem;
+}
+
 .right-block {
     margin-left: 50%;
 }
@@ -32,4 +36,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.fw {
+    width: 100%;
+}
+
+.btn {
+    transition: 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    border: 1px solid var(--vt-c-black);
+    color: var(--vt-c-black);
+    padding: 0.3rem 1.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transition: 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: var(--vt-c-black);
+    color: var(--vt-c-white);
 }

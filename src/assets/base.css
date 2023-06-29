@@ -65,8 +65,14 @@
 body {
   font-family: "KaiseiDecol";
   color: var(--vt-c-black);
-  margin: 0 4rem;
   scroll-behavior: smooth;
+  margin: 0 1.5rem;
+}
+
+@media screen and (min-width: 420px) {
+  body {
+    margin: 0 4rem;
+  }  
 }
 
 a {

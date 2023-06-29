@@ -4,19 +4,15 @@ import Title from "./Title.vue";
 
 <template>
   <footer>
-      <p class="mb-1">
-        “What makes art great is not the fact that you get great at art, it’s
-        that you get great at drawing, it’s that it connects you with the world
-        around you, it makes up you a professional human, it makes you a
-        professional observer of life.”
-      </p>
-      <p style="text-align: right;">— Adam Duff LUCIDPIXUL</p>
   </footer>
 </template>
 
 <style scoped>
 footer {
-    height: 300px;
+    height: 30px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--vt-c-gray);
     display: flex;
     flex-direction: column;
     align-items: center;

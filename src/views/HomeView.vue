@@ -22,12 +22,16 @@ const gallery = [
   "Scathach.jpg",
   "tlaloc.png",
   "Zagreus&Dusa2.jpg",
+  "channels_banner-textless.png",
+  "Makima.png",
+  "ruby_eye.png",
+  "kafka_eye.png"
 ];
 </script>
 
 <template>
   <Container>
-    <BigPicture src="main.png" class="mb-8" />
+  <BigPicture src="full.png" class="mb-8" />
     <TwoColumn>
       <template v-slot:right-col>
         <Title text="ABOUT ME" align="left" />
@@ -49,7 +53,7 @@ const gallery = [
         </p>
       </template>
     </TwoColumn>
-    <FullPicture src="full.png" class="mb-8" />
+    <FullPicture src="HokusaiKatsushika.png" class="mb-8" />
     <Title text="THE GALLERY" align="center" />
     <div class="centered mb-8">
       <p class="mb-1">

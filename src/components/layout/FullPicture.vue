@@ -12,7 +12,7 @@ const props = defineProps({
 const image = ref<HTMLDivElement>();
 onMounted(() => {
   if (image.value) {
-    new simpleParallax(image.value, {delay: 1, scale: 1.2});
+    new simpleParallax(image.value, {delay: 2, scale: 1.2});
   }
 });
 

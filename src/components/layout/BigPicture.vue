@@ -16,7 +16,7 @@ onMounted(() => {
 });
 
 function getImageUrl() {
-  return new URL(`../../assets/images/${props.src}`, import.meta.url).href
+  return new URL(`../../assets/images/${props.src}`, import.meta.url).href;
 }
 </script>
 
@@ -28,7 +28,7 @@ function getImageUrl() {
 
 <style scoped>
 .bp-wrapper {
-  height: calc(100vh - 8rem);
+  height: 600px;
   overflow: hidden;
 }
 
@@ -36,5 +36,12 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1080px) {
+  .bp-wrapper {
+    height: calc(100vh - 8rem);
+    overflow: hidden;
+  }
 }
 </style>

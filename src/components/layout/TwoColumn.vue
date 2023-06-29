@@ -13,7 +13,12 @@
 
 <style scoped>
 .two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: inline;
+}
+@media screen and (min-width: 1080px) {
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 </style>

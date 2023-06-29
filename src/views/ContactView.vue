@@ -16,7 +16,7 @@
           possibly meet, seeking for their smile, giving them the will to pursue
           their dreams.
         </p>
-        <p class="mb-2">
+        <p class="mb-1">
           He joined a 2D/3D animation school in 2018 to enhance his artistic
           skills. Develop a new way of observing, taking the time to question
           teachers about their experiences and how he could take advantage of

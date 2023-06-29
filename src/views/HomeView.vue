@@ -10,9 +10,11 @@ const gallery = [
   "AiHoshino_end.png",
   "AobaranKeiko.png",
   "Carenend.png",
+  "kafka_eye.png",
   "HokusaiKatsushika.png",
   "Kokomi.jpg",
   "Koyanmin.png",
+  "ruby_eye.png",
   "MarinwallpaperShi.png",
   "MarinwallpaperSu.png",
   "Narmaya_Selfie.png",
@@ -24,8 +26,6 @@ const gallery = [
   "Zagreus&Dusa2.jpg",
   "channels_banner-textless.png",
   "Makima.png",
-  "ruby_eye.png",
-  "kafka_eye.png"
 ];
 </script>
 

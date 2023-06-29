@@ -9,20 +9,27 @@
       <template v-slot:right-col>
         <Title text="ABOUT ME" align="left" />
         <p class="mb-1">
-          Based in France, I'm a character artist in constant search of
-          improvement. I like to discover new working methods and receive
-          constructive criticism to improve my final renders. Art is a field
-          that makes sense to me because mastering its essence is nothing short
-          of utopian, but that's enough to make me want to take this journey as
-          far as I can.
+          Born in France - Hisae's journey started in a tiny village where his
+          parents took this long effort of raising a second child, taking a new
+          step in the new century, giving birth to a child that will express his
+          will to live by trying to share his stories and his art to all he will
+          possibly meet, seeking for their smile, giving them the will to pursue
+          their dreams.
         </p>
         <p class="mb-2">
-          My greatest wish would be to acquire sufficient awareness of my surroundings
-          to be able to transcribe them as best I can onto a sheet of paper with
-          the sole aid of my head coupled with my hands. I hope to be able to
-          pass on as much knowledge as possible to as many people as possible,
-          and to help those who would not otherwise dare to embark on this
-          adventure to discover this incredible world of art.
+          He joined a 2D/3D animation school in 2018 to enhance his artistic
+          skills. Develop a new way of observing, taking the time to question
+          teachers about their experiences and how he could take advantage of
+          their listening. In love with Japanese culture and aesthetic, he
+          decided to take a Japanese class to learn the language.
+        </p>
+        <p class="mb-2">
+          In the same sense, one day, he wants to discover what life is like in
+          Japan while working there and benefit from a different worldview. All
+          this is due to the culture where everything is so different from his
+          usual world. Due to high expectations in today's art world, he
+          nevertheless continues to learn more every day, in order to realize
+          his goals and bring his dreams to life.
         </p>
         <a class="btn" href="mailto:ki.hisae@gmail.com">CONTACT ME</a>
       </template>
@@ -50,7 +57,7 @@ import TwoColumn from "../components/layout/TwoColumn.vue";
   .profile-picture {
     margin-bottom: 4rem;
     margin-right: 0;
-    justify-content: center; 
+    justify-content: center;
   }
 }
 

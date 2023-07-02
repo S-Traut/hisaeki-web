@@ -33,7 +33,7 @@ const gallery = [
 
 <template>
   <Container>
-    <BigPicture src="title.png" class="mb-8" />
+    <BigPicture src="title.png" class="mb-8-md" />
     <TwoColumn invert full-height class="mb-4">
       <template v-slot:left-col>
         <div class="signature">
@@ -111,6 +111,10 @@ const gallery = [
 @media screen and (max-width: 1080px) {
   .whoami {
     margin-bottom: 8rem; 
+  }
+
+  .signature {
+    margin-right: 0;
   }
 }
 

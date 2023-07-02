@@ -10,33 +10,34 @@ import TwoColumn from "../components/layout/TwoColumn.vue";
 import Image from "../components/layout/Image.vue";
 
 const gallery = [
-  "HokusaiKatsushika.png",
-  "Kokomi.jpg",
-  "kafka_eye.png",
-  "Koyanmin.png",
-  "ruby_eye.png",
-  "MarinwallpaperShi.png",
-  "MarinwallpaperSu.png",
-  "Narmaya_Selfie.png",
-  "AiHoshino_end.png",
-  "OberonCrazy.png",
-  "Carenend.png",
-  "Pdp.png",
-  "Remillia_Scarlet.png",
-  "Scathach.jpg",
-  "tlaloc.png",
-  "Zagreus&Dusa2.jpg",
-  "Makima.png",
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg",
+  "8.jpg",
+  "9.jpg",
+  "10.jpg",
+  "11.jpg",
+  "12.jpg",
+  "13.jpg",
+  "14.jpg",
+  "15.jpg",
+  "16.jpg",
+  "17.jpg",
+  "18.jpg",
 ];
 </script>
 
 <template>
   <Container>
-    <BigPicture src="Carenend.png" class="mb-8" />
+    <BigPicture src="title.png" class="mb-8" />
     <TwoColumn invert full-height class="mb-4">
       <template v-slot:left-col>
         <div class="signature">
-          <Image src="Sign.png" />
+          <Image src="sign.png" />
         </div>
       </template>
       <template v-slot:right-col>
@@ -60,7 +61,7 @@ const gallery = [
         </div>
       </template>
     </TwoColumn>
-    <FullPicture src="AiHoshino_end.png" class="mb-16" />
+    <FullPicture src="fullpic.png" class="mb-16" />
     <Title text="THE GALLERY" align="center" />
     <div class="centered mb-16">
       <p class="mb-1">

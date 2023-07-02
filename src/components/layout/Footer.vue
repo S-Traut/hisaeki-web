@@ -4,18 +4,19 @@ import Title from "./Title.vue";
 
 <template>
   <footer>
+    <a href="https://github.com/s-traut">[ST]</a>
   </footer>
 </template>
 
 <style scoped>
 footer {
-    height: 30px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: var(--vt-c-gray);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 30px;
+  font-size: 0.8rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: var(--vt-c-lightgray);
 }
 </style>

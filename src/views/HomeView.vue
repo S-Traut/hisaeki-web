@@ -85,7 +85,7 @@ const gallery = [
         professional observer of life.”
       </p>
       <p class="mb-2" style="text-align: right">— Adam Duff LUCIDPIXUL</p>
-      <RouterLink to="/contact" class="btn" href="mailto:ki.hisae@gmail.com"
+      <RouterLink to="/contact" class="btn"
         >CONTACT</RouterLink
       >
     </div>

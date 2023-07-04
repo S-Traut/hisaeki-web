@@ -25,6 +25,10 @@ import Container from './Container.vue';
     flex-direction: column-reverse;
     text-align: center;
   }
+
+  .header h1 {
+    font-size: 0.8rem;
+  }
 }
 
 .header {

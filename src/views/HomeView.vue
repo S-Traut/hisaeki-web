@@ -33,7 +33,7 @@ const gallery = [
 
 <template>
   <Container>
-    <BigPicture src="title.png" class="mb-8-md" />
+    <BigPicture src="title.png" class="mb-4" />
     <TwoColumn invert full-height class="mb-4">
       <template v-slot:left-col>
         <div class="signature">
@@ -61,9 +61,9 @@ const gallery = [
         </div>
       </template>
     </TwoColumn>
-    <FullPicture src="fullpic.png" class="mb-16" />
+    <FullPicture src="fullpic.png" class="full-picture mb-4" />
     <Title text="THE GALLERY" align="center" />
-    <div class="centered mb-16">
+    <div class="centered mb-4">
       <p class="mb-1">
         A work of art can take from a few hours to several days to complete.
         Although time flies when you're focused, it's always important to savor
@@ -76,8 +76,8 @@ const gallery = [
         we were young children.
       </p>
     </div>
-    <Gallery :images="gallery" class="mb-16" />
-    <div class="centered mb-16">
+    <Gallery :images="gallery" class="mb-4" />
+    <div class="centered mb-4">
       <p class="mb-1">
         “What makes art great is not the fact that you get great at art, it’s
         that you get great at drawing, it’s that it connects you with the world
@@ -108,13 +108,14 @@ const gallery = [
   justify-content: center;
 }
 
-@media screen and (max-width: 1080px) {
-  .whoami {
-    margin-bottom: 8rem; 
-  }
 
+@media screen and (max-width: 1080px) {
   .signature {
     margin-right: 0;
+  }
+
+  .full-picture {
+    height: 600px;
   }
 }
 

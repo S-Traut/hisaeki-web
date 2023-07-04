@@ -29,8 +29,7 @@ defineProps({
   align-items: center;
 }
 
-
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 1080px) {
     .fh {
       height: calc(100vh - 4rem);
       max-height: 1080px;

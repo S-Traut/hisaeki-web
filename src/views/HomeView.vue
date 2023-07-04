@@ -10,9 +10,10 @@ import TwoColumn from "../components/layout/TwoColumn.vue";
 import Image from "../components/layout/Image.vue";
 
 const gallery = [
+  "19.jpg",
   "1.jpg",
-  "2.jpg",
   "3.jpg",
+  "2.jpg",
   "4.jpg",
   "5.jpg",
   "6.jpg",

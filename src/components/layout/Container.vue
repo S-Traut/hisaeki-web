@@ -17,9 +17,9 @@ defineProps({
   margin-right: auto;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1080px) {
   .fh {
-    height: calc(100vh - 8rem);
+    min-height: calc(100vh - 8rem);
     display: flex;
     align-items: center;
     justify-content: center;

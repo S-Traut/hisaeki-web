@@ -3,7 +3,7 @@
     <TwoColumn>
       <template v-slot:left-col>
         <div class="profile-picture">
-          <ProfilPicture src="profile.png" alt="profile_picture" />
+          <ProfilPicture src="profile.jpg" alt="profile_picture" />
         </div>
       </template>
       <template v-slot:right-col>

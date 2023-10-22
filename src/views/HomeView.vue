@@ -10,14 +10,11 @@ import TwoColumn from "../components/layout/TwoColumn.vue";
 import Image from "../components/layout/Image.vue";
 
 const gallery = [
-  "19.jpg",
   "1.jpg",
-  "3.jpg",
   "2.jpg",
-  "20.jpg",
+  "3.jpg",
   "4.jpg",
   "5.jpg",
-  "21.jpg",
   "6.jpg",
   "7.jpg",
   "8.jpg",
@@ -31,12 +28,17 @@ const gallery = [
   "16.jpg",
   "17.jpg",
   "18.jpg",
+  "19.jpg",
+  "20.jpg",
+  "21.jpg",
+  "22.jpg",
+  "23.jpg",
 ];
 </script>
 
 <template>
   <Container>
-    <BigPicture src="title.png" class="mb-4" />
+    <BigPicture src="title.jpg" class="mb-4" />
     <TwoColumn invert full-height class="mb-4">
       <template v-slot:left-col>
         <div class="signature">
@@ -50,16 +52,17 @@ const gallery = [
             I'm a character artist in constant search of improvement. I like to
             discover new working methods and receive constructive criticism to
             improve my final renders. Art is a field that makes sense to me
-            because mastering its essence is nothing short of utopian, but that's
-            enough to make me want to take this journey as far as I can.
+            because mastering its essence is nothing short of utopian, but
+            that's enough to make me want to take this journey as far as I can.
           </p>
           <p class="mb-2">
             My greatest wish would be to acquire sufficient awareness of my
-            surroundings to be able to transcribe them as best I can onto a sheet
-            of paper with the sole aid of my head coupled with my hands. I hope to
-            be able to pass on as much knowledge as possible to as many people as
-            possible, and to help those who would not otherwise dare to embark on
-            this adventure to discover this incredible world of art.
+            surroundings to be able to transcribe them as best I can onto a
+            sheet of paper with the sole aid of my head coupled with my hands. I
+            hope to be able to pass on as much knowledge as possible to as many
+            people as possible, and to help those who would not otherwise dare
+            to embark on this adventure to discover this incredible world of
+            art.
           </p>
         </div>
       </template>
@@ -88,9 +91,7 @@ const gallery = [
         professional observer of life.”
       </p>
       <p class="mb-2" style="text-align: right">— Adam Duff LUCIDPIXUL</p>
-      <RouterLink to="/contact" class="btn"
-        >CONTACT</RouterLink
-      >
+      <RouterLink to="/contact" class="btn">CONTACT</RouterLink>
     </div>
   </Container>
 </template>
@@ -110,7 +111,6 @@ const gallery = [
   flex-direction: column;
   justify-content: center;
 }
-
 
 @media screen and (max-width: 1080px) {
   .signature {

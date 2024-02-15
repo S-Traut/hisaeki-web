@@ -2,16 +2,17 @@
 import { RouterLink } from "vue-router";
 import BigPicture from "../components/layout/BigPicture.vue";
 import Container from "../components/layout/Container.vue";
-import FullPicture from "../components/layout/FullPicture.vue";
 import Gallery from "../components/layout/Gallery.vue";
-import ProfilPicture from "../components/layout/ProfilPicture.vue";
 import Title from "../components/layout/Title.vue";
 import TwoColumn from "../components/layout/TwoColumn.vue";
 import Image from "../components/layout/Image.vue";
 
 const gallery = [
+  "24.jpg",
+  "25.jpg",
   "1.jpg",
   "2.jpg",
+  "15.jpg",
   "3.jpg",
   "4.jpg",
   "5.jpg",
@@ -24,7 +25,6 @@ const gallery = [
   "12.jpg",
   "13.jpg",
   "14.jpg",
-  "15.jpg",
   "16.jpg",
   "17.jpg",
   "18.jpg",
@@ -39,7 +39,7 @@ const gallery = [
 <template>
   <Container>
     <BigPicture src="title.jpg" class="mb-4" />
-    <TwoColumn invert full-height class="mb-4">
+    <TwoColumn invert full-height class="mb-1">
       <template v-slot:left-col>
         <div class="signature">
           <Image src="sign.png" />
@@ -67,7 +67,6 @@ const gallery = [
         </div>
       </template>
     </TwoColumn>
-    <FullPicture src="fullpic.png" class="full-picture mb-4" />
     <Title text="THE GALLERY" align="center" />
     <div class="centered mb-4">
       <p class="mb-1">

@@ -8,8 +8,7 @@ import Container from './Container.vue';
     <div class="header">
       <RouterLink to="/"><h1 class="title">ART BY HISAEKI</h1></RouterLink>
       <div class="links">
-        <a href="https://www.instagram.com/hisae.ki">INSTAGRAM</a>
-        <a href="https://www.pixiv.net/en/users/44549352">PIXIV</a>
+        <a href="https://www.artstation.com/hisaeki">ARTSTATION</a>
         <a href="https://twitter.com/Hisaeki">TWITTER</a>
         <RouterLink to="/contact">CONTACT</RouterLink>
       </div>
